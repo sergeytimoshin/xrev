@@ -72,8 +72,8 @@ function App() {
   return (
     <RecoilRoot>
       <NavigationContainer>
-        {/*<UploadScreen />*/}
-          <TabNavigator/>
+        <UploadScreen />
+          {/*<TabNavigator/>*/}
       </NavigationContainer>
     </RecoilRoot>
   );
