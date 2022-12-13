@@ -1,3 +1,12 @@
+# This is a demo for [Magic Eden](https://gitcoin.co/hackathon/magic) hackathon. 
+
+It is an xNFT app, in which user can min their avatar from our infinite NFT collection, and get unlockable content for each of their NFTs.
+
+We use QuickNode API's for mint and darkblock monetization API for unlocks.
+
+To use this app, you have to install Backpack wallet.
+You can find more information about the project [here](https://mirror-ai.com/nft/).
+
 # xnft-quickstart
 
 Quickstart repo for building your own xNFT.
