@@ -2,10 +2,19 @@
 
 It is an xNFT app, in which user can min their avatar from our infinite NFT collection, and get unlockable content for each of their NFTs.
 
-We use QuickNode API's for mint and darkblock monetization API for unlocks.
-
 To use this app, you have to install Backpack wallet.
 You can find more information about the project [here](https://mirror-ai.com/nft/).
+
+Conceptually our project is a intersection of ideas between patreon, in-app purchases for mobile apps, boots@raindrops and darkblock monetization. 
+
+We decided to use QuickNode API's for mint because of their really nice feature send-NFT-2-email. It's super important for us, because our [original product](https://mirror-ai.com) has pretty big audience and we can onboard all of them to web3 transparently.
+
+We are going to darkblock API's to use unlockable content. There is still few issues must be solved before our demo will be ready to production:
+- we create unlockable content on the fly, and right now, as far I understand, it's impossible to create darkblock wrapper around it via API.
+- we want to implement recurrent payments (when darkblock API's will be ready for that) and some kind of analytics for creators.
+
+
+
 
 # xnft-quickstart
 
