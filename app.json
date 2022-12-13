@@ -1,0 +1,7 @@
+{
+  "expo": {
+    "name": "xnft-solanathon",
+    "slug": "xnft-solanathon",
+    "entryPoint": "./src/App"
+  }
+}
